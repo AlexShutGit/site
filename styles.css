@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #1b1b1b;
+}
+
+header.hero {
+    height: 100vh;
+    /* background: url('cover.jpg') no-repeat center center/cover; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1.04vw;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4vw;
+    line-height: 6vw;
+    margin-bottom: 0.52vw;
+}
+
+h2 {
+    font-size: 3vw;
+    line-height: 4.5vw;
+}
+
+p {
+    font-size: 2vw;
+    line-height: 3vw;
+    margin-bottom: 1.04vw;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.78vw 1.56vw;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    border-radius: 0.5vw;
+}
+
+.cta-button:hover {
+    background-color: #e65c00;
+}
+
+.benefits,
+.polyurethane,
+.gallery,
+.reviews,
+.contact {
+    padding: 2.6vw 1.04vw;
+    text-align: center;
+}
+
+.benefits ul {
+    list-style: none;
+}
+
+.benefits ul li {
+    font-size: 1.5vw;
+    line-height: 2.25vw;
+    margin-bottom: 0.52vw;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.04vw;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 0.52vw;
+}
+
+.review {
+    margin-bottom: 1.04vw;
+}
+
+.review p {
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.52vw;
+    max-width: 40vw;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 0.52vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+form button {
+    padding: 1vw;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e65c00;
+}
+
+footer {
+    padding: 1.04vw;
+    text-align: center;
+    background-color: #1b1b1b;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+
+    p {
+        font-size: 1vw;
+        line-height: 1.5vw;
+    }
+
+    .cta-button {
+        font-size: 0.75vw;
+        line-height: 1.125vw;
+        padding: 12px 20.5vw;
+    }
+}

@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 4vw;
+    line-height: 6vw;
+}
+p {
+    font-size: 2vw;
+    line-height: 3vw;
+    padding-top: 0.125vw;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #1b1b1b;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0vw 5vw 0vw 5vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navigation-button {
+    padding: 1vw;
+}
+
+.order-button {
+    background-color: orange;
+    border-radius: 0.25vw;
+    padding: 0.75vw;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-block {
+    height: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.second-block {
+    padding-bottom: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.third-block {
+    padding-bottom: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fourth-block {
+    padding-bottom: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.five-block {
+    padding-bottom: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.six-block {
+    padding-bottom: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.advantages-block-one {
+    display: flex;
+    justify-content:space-between
+
+}
+
+.advantages-block-two {
+    display: flex;
+    justify-content:space-between
+}
+
+.advantages-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.element-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list-element {
+    padding: 2vw;
+}
+
+.element-number {
+    background-color: orange;
+    border-radius: 100%;
+    display: flex;
+    width: 2.5vw;
+    height: 2.5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.element-text {
+    font-size: 1.5vw;
+    line-height: 2.25vw;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.04vw;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 0.52vw;
+}
+
+.review {
+    margin-bottom: 1.04vw;
+}
+
+.review p {
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.52vw;
+    max-width: 40vw;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 0.52vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    border: none;
+    border-radius: 0.5vw;
+    width: 40vw;
+}
+
+form button {
+    padding: 1vw;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e65c00;
+}
