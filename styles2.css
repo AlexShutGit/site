@@ -223,3 +223,57 @@ form button {
 form button:hover {
     background-color: #e65c00;
 }
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 5vw;
+        line-height: 7.5vw;
+    }
+
+    p {
+        font-size: 3vw;
+        line-height: 4.5vw;
+    }
+
+    h3 {
+        font-size: 2vw;
+        width: 11vw;
+    }
+
+    .element-text {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+
+    .cta-button {
+        font-size: 0.75vw;
+        line-height: 1.125vw;
+        padding: 12px 20.5vw;
+    }
+
+    .element-number {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    a {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+
+    .contacts span {
+        font-size: 2vw;
+    }
+
+    .navigation-button {
+        padding: 0.75vw;
+    }
+
+    .container {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        padding: 0vw 2vw 0vw 2vw;
+    }
+}
