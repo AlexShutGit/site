@@ -132,10 +132,26 @@
                     <button type="submit">Отправить заявку</button>
                 </form>
             </div>
+            <iframe id="player_iframe">
+
+            </iframe>
             <footer>
                 <p>&copy; 2024 CarSave</p>
             </footer>
         </div>
     </div>
 </body>
+<script>
+    console.log(1);
+    var param_cdn = {
+    player_id: '#player_iframe', // ID блока где размещать iframe видео
+    kp: '3498', // Основной параметр. В данном случае - ID Кинопоиска, но можно использовать любой из параметров
+    calback_success: 'succes_function', // Какую функцию вызвать, если запрос успешный, функция принимает один параметр в который вернется ответ от API. Параметр необязательный
+    calback_error: 'error_function', // Какую функцию вызвать если запрос неуспешный, функция принимает один параметр в который вернется ответ от API. Параметр необязательный
+    token: 'de19b0b4e75ce15a9be8e63c0f5858', // Ваш уникальный Токен (узнать можно в настройках профиля)
+    width: '100%', // Ширина для iframe, можно указывать проценты и px. Параметр необязательный
+    height: '100%', // Высота для iframe, можно указывать проценты и px. Параметр необязательный
+    alternative_iframe: '<iframe frameborder="0" allowfullscreen src="ссылка на видео"></iframe>' // Ссылка на видео стороннего балансера (какой Вам необходим)
+    }; </script>
+<script src="https://allohatv.github.io/insert-player.js"></script>
 </html>
